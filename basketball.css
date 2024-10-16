@@ -1,0 +1,146 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* <!-- heading section start --> */
+.heading{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    color: pink;
+    background-color:#2C3E50;
+    height: 34vh;
+    padding-top: 10px;
+}
+
+.heading:hover{
+    color: #000;
+}
+/* <!-- heading section end --> */
+
+/* <!-- description section start --> */
+.description h3{
+    color: rgb(234, 0, 255);
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 500px;  
+    padding-top: 50px;
+}
+
+.description h3:hover{
+    color: cornflowerblue;
+}
+
+.description p{
+    color: rgb(138, 14, 51);
+     text-align: center;
+     padding-top: 50px;
+    }
+    /* <!-- description section end --> */
+
+    /* <!-- image section start --> */
+    .image{
+        padding-top: 100px;
+        padding-bottom:100px;
+        display: flex;
+        justify-content: center;
+        background-color:  #18BC9C;
+    }
+
+    .card img:hover{
+        color: rgb(255, 0, 119);
+    }
+
+      .card{
+        padding-top: 100px;
+      }
+    /* <!-- image section end --> */
+
+    /* <!-- rules section start --> */
+    .rules h3{
+    color: rgb(130, 10, 141);
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 500px;  
+    padding-top: 50px;
+    }
+
+    .rules h3:hover{
+        color: rgb(237, 100, 175);
+    }
+
+    .list li{
+        color: rgb(37, 8, 116); 
+        }
+
+        .list ol{
+            padding-top: 50px;
+        }
+    /* <!-- rules section end --> *
+
+    /* <!-- back button section start --> */
+      .back a{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 30px;
+      }
+
+      button{
+        color:black ;
+        background-color: grey;
+      }
+
+      button:hover{
+        color: green;
+      }
+    /* <!-- back button section end --> */
+
+
+    /* <!-- next button section start --> */
+    .next a{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 30px;
+      }
+
+      button{
+        color: black;
+        background-color: grey;
+        /* padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px; */
+        padding: 5px 5px 5px 5px;
+        width: 100px;
+        border-radius: 50px;
+      }
+
+      button:hover{
+        color: green;
+      }
+      
+      .main{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      
+
+    /* <!-- next button section end --> */
+          
+
+   /* <!-- footer section start --> */
+   .footer{
+      font-size: 40px;
+      background-color:#2C3E50;
+       height: 34vh;
+       color: pink;
+       text-align: center;
+       padding-top: 10px;
+   }
+
+   .footer:hover{
+    color: #8a1010;
+}
+   /* <!-- footer section end --> *     
